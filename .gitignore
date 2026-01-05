@@ -1,4 +1,5 @@
-.myenv
-.artifacts
+/artifacts
 /myenv
+.eggs
+*.egg   
 __pycache__/
