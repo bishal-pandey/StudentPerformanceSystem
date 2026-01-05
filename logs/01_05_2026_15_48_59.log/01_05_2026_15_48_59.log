@@ -1,0 +1,4 @@
+[2026-01-05 15:48:59,645] 97 werkzeug - WARNING -  * Debugger is active!
+[2026-01-05 15:48:59,660] 97 werkzeug - INFO -  * Debugger PIN: 107-584-128
+[2026-01-05 15:49:05,962] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jan/2026 15:49:05] "POST / HTTP/1.1" 200 -
+[2026-01-05 15:49:27,653] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jan/2026 15:49:27] "POST / HTTP/1.1" 200 -

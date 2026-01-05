@@ -1,0 +1,26 @@
+[2026-01-05 15:29:57,245] 20 root - INFO - Entered the daata ingestion method
+[2026-01-05 15:29:57,277] 23 root - INFO - Read the dataset as dataframe
+[2026-01-05 15:29:57,289] 28 root - INFO - Train test split initiated
+[2026-01-05 15:29:57,307] 34 root - INFO - Ingestion of data is completed
+[2026-01-05 15:29:57,320] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.100:5000
+[2026-01-05 15:29:57,320] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2026-01-05 15:29:57,342] 69 root - INFO - Read train and test data completed
+[2026-01-05 15:29:57,342] 71 root - INFO - Obtaining preprocessing object
+[2026-01-05 15:29:57,342] 49 root - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[2026-01-05 15:29:57,348] 83 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[2026-01-05 15:29:57,366] 96 root - INFO - Saved preprocessing object.
+[2026-01-05 15:29:57,368] 29 root - INFO - Split training and test input data
+[2026-01-05 15:31:19,734] 97 werkzeug - ERROR - 127.0.0.1 - - [05/Jan/2026 15:31:19] code 400, message Bad request version ('\x00\x02\x01\x00DÍ\x00\x05\x00\x03\x02h2\x00\x1b\x00\x03\x02\x00\x02\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+[2026-01-05 15:31:19,734] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jan/2026 15:31:19] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03°V\x08ïäáÕk#\x15ù\x16å_\x09©\x9d\x9c|ë÷\x80w;¯Ð¦c¼-åm \x17\x7f<\x84\x1e\x82ø\x18¨Îú\x89`¹Ó­\x9f­©î¾\x98Ú¶½\x9b\x05sCËo\x17\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063jj\x00\x00\x00\x12\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00#\x00\x00\x00\x0b\x00\x02\x01\x00DÍ\x00\x05\x00\x03\x02h2\x00\x1b\x00\x03\x02\x00\x02\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00[0m" 400 -
+[2026-01-05 15:31:19,740] 97 werkzeug - ERROR - 127.0.0.1 - - [05/Jan/2026 15:31:19] code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063\x8a\x8a\x00\x00\x00-\x00\x02\x01\x01\x00')
+[2026-01-05 15:31:19,740] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jan/2026 15:31:19] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03TGvJ\x9eÛ°\x80>\x9a\x8bçð{Ïl\x11Á<\x02bXAaûT\\\x99E.p4 sû\x09QV«\x81÷b°\x8d¢\x96JÀ\x13\x10ì§w\x85"\x10fô\x94\\fäÝ\x09q\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063\x8a\x8a\x00\x00\x00-\x00\x02\x01\x01\x00[0m" 400 -
+[2026-01-05 15:36:34,863] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jan/2026 15:36:34] "GET / HTTP/1.1" 200 -
+[2026-01-05 15:36:34,948] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jan/2026 15:36:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2026-01-05 15:36:41,568] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jan/2026 15:36:41] "[33mGET /home HTTP/1.1[0m" 404 -
+[2026-01-05 15:37:02,703] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jan/2026 15:37:02] "GET /predictdata HTTP/1.1" 200 -
+[2026-01-05 15:39:58,755] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jan/2026 15:39:58] "GET /predictdata HTTP/1.1" 200 -
+[2026-01-05 15:39:59,084] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jan/2026 15:39:59] "GET /predictdata HTTP/1.1" 200 -
+[2026-01-05 15:40:00,101] 97 werkzeug - INFO - 127.0.0.1 - - [05/Jan/2026 15:40:00] "GET /predictdata HTTP/1.1" 200 -
