@@ -1,5 +1,6 @@
-/artifacts
-/myenv
+artifacts/
+myenv/
 .eggs
 *.egg   
+*.eff-info
 __pycache__/
