@@ -40,4 +40,4 @@ average_score = (math_score + reading_score + writing_score) / 3
 - Evaluates model performance on test data
 - Uses R² score as the evaluation metric
 
-<img src = "C:\Users\Dell\Desktop\StudentPerformance\image\image.png">
+<img src = "https://github.com/bishal-pandey/StudentPerformanceSystem/blob/main/image/image.png">
