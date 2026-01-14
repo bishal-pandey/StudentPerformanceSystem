@@ -16,7 +16,6 @@ The dataset contains student demographic and academic information such as:
 The target variable is calculated as:
 average_score = (math_score + reading_score + writing_score) / 3
 
-
 <br>
 
 ### Machine Learning Pipeline
@@ -39,5 +38,7 @@ average_score = (math_score + reading_score + writing_score) / 3
 #### Model Evaluation
 - Evaluates model performance on test data
 - Uses R² score as the evaluation metric
+
+  
 
 <img src = "https://github.com/bishal-pandey/StudentPerformanceSystem/blob/main/image/image.png">
